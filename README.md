@@ -41,7 +41,7 @@ python main.py
 
 It extracts events into an Excel file and logs runtime in terminal.
 
-2. Visualize and Evaluate
+### 2. Visualize and Evaluate
 Run the notebook: RBAtheta_vis_SQLite-Indexing.ipynb 
 
 This will:
@@ -56,7 +56,7 @@ Plot detected events
 
 ---
 
-🧪 Environment Setup
+### 🧪 Environment Setup
 To replicate the full environment (non-spatial, cross-platform):
 
 ```bash
@@ -67,7 +67,7 @@ conda activate rba_env
 
 ---
 
-## 📝 Citation
+### 📝 Citation
 
 **Please cite the below publication as the source. The source code has a MIT liscence meaning users are free to modify and use only with a explicit written permission or citation of the publication.**
 
