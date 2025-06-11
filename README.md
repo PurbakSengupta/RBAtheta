@@ -1,4 +1,4 @@
-# ⚡ rbaTheta+: Adaptive Ramping Behaviour Analysis with Event Filtering and SQLite Indexing
+# ⚡ rbaTheta: Adaptive Ramping Behaviour Analysis with Event Filtering and SQLite Indexing
 
 **rbaTheta+** is an enhanced version of the original RBATheta algorithm for detecting ramping events in wind power signals. It introduces adaptive thresholding (traditional and MCMC-based), robust data handling through SQLite, and a post-filtering mechanism to better distinguish stationary from significant events using a sliding window + log-based transformation.
 
