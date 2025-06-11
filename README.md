@@ -75,7 +75,7 @@ conda activate rba_env
 > GitHub Link: (https://github.com/sambeets/rbaTheta/tree/master)
 
 ```bash
-  @article{mishra2020features,
+@article{mishra2020features,
   title={Features extraction of wind ramp events from a virtual wind park},
   author={Mishra, Sambeet and {\"O}ren, Esin and Bordin, Chiara and Wen, Fushuan and Palu, Ivo},
   journal={Energy Reports},
@@ -83,4 +83,5 @@ conda activate rba_env
   pages={237--249},
   year={2020},
   publisher={Elsevier}
-}```
+}
+```
