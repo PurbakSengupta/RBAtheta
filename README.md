@@ -28,8 +28,7 @@ Sudden or gradual variations in time-series data (such as wind energy output) ca
 | `simulations/` | Includes scripts and test results (e.g., `fast_test.py`) |
 | `plots/` | Output event visualizations, including MCMC and traditional comparisons |
 | `input_data/` | Original wind time-series and QGIS spatial data |
-| `RBA_theta_vis.ipynb` | Main visualization notebook (SQLite + post-filtering) |
-| `Visualization_SlidingWindow.ipynb` | Evaluation of stationary event detection logic |
+| `RBAtheta_vis_SQLite-Indexing.ipynb` | Main visualization notebook (SQLite + post-filtering) |
 
 ---
 
