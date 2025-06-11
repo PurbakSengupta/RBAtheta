@@ -25,7 +25,6 @@ Sudden or gradual variations in time-series data (such as wind energy output) ca
 | Folder/File | Description |
 |-------------|-------------|
 | `core/` | Contains model logic |
-| `simulations/` | Includes test results |
 | `simulations/test_results/` | Output event visualizations, including MCMC and traditional comparisons |
 | `input_data/` | Original wind time-series data with seasonal splits |
 | `RBAtheta_vis_SQLite-Indexing.ipynb` | Main visualization notebook (SQLite + post-filtering) |
