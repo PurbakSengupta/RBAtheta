@@ -1,6 +1,6 @@
 # ⚡ rbaTheta+: Adaptive Ramping Behaviour Analysis with Event Filtering and SQLite Indexing
 
-**rbaTheta+** is an enhanced version of the original RBATheta algorithm for detecting ramping events in wind power signals. It introduces adaptive thresholding (traditional and MCMC-based), robust data handling through SQLite, and a post-filtering mechanism to better distinguish stationary from significant events using a sliding window + log-based transformation.
+**rbaTheta+** is an enhanced version of the original RBATheta algorithm for detecting ramping events in wind power signals. It introduces adaptive thresholding (traditional and MCMC-based), robust data handling through SQLite, and a post-filtering mechanism to better distinguish stationary from significant. It also introduces a sliding window + log-based transformation in the event detection technique.
 
 ---
 
@@ -24,10 +24,10 @@ Sudden or gradual variations in time-series data (such as wind energy output) ca
 
 | Folder/File | Description |
 |-------------|-------------|
-| `core/` | Contains model logic (`event_extraction.py` with sliding window, log scaling, etc.) |
-| `simulations/` | Includes scripts and test results (e.g., `fast_test.py`) |
-| `plots/` | Output event visualizations, including MCMC and traditional comparisons |
-| `input_data/` | Original wind time-series and QGIS spatial data |
+| `core/` | Contains model logic |
+| `simulations/` | Includes test results |
+| `simulations/test_results/` | Output event visualizations, including MCMC and traditional comparisons |
+| `input_data/` | Original wind time-series data with seasonal splits |
 | `RBAtheta_vis_SQLite-Indexing.ipynb` | Main visualization notebook (SQLite + post-filtering) |
 
 ---
@@ -73,6 +73,7 @@ conda activate rba_env
 **Please cite the below publication as the source. The source code has a MIT liscence meaning users are free to modify and use only with a explicit written permission or citation of the publication.**
 
 > [Mishra S, Ören E, Bordin C, Wen F, Palu I. Features extraction of wind ramp events from a virtual wind park. Energy Reports. 2020 Nov 1;6:237-49.](https://doi.org/10.1016/j.egyr.2020.08.047)
+> GitHub Link: (https://github.com/sambeets/rbaTheta/tree/master)
 
 @article{mishra2020features,
   title={Features extraction of wind ramp events from a virtual wind park},
