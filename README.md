@@ -74,7 +74,8 @@ conda activate rba_env
 > [Mishra S, Ören E, Bordin C, Wen F, Palu I. Features extraction of wind ramp events from a virtual wind park. Energy Reports. 2020 Nov 1;6:237-49.](https://doi.org/10.1016/j.egyr.2020.08.047)
 > GitHub Link: (https://github.com/sambeets/rbaTheta/tree/master)
 
-@article{mishra2020features,
+```bash
+  @article{mishra2020features,
   title={Features extraction of wind ramp events from a virtual wind park},
   author={Mishra, Sambeet and {\"O}ren, Esin and Bordin, Chiara and Wen, Fushuan and Palu, Ivo},
   journal={Energy Reports},
@@ -82,4 +83,4 @@ conda activate rba_env
   pages={237--249},
   year={2020},
   publisher={Elsevier}
-}
+}```
